@@ -152,6 +152,120 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-hexo-github-搭建个人博客教程！" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/26/hexo-github-搭建个人博客教程！/">hexo + github 搭建个人博客教程！</a>
+    </h1>
+  
+
+        
+        <a href="/2019/02/26/hexo-github-搭建个人博客教程！/" class="archive-article-date">
+  	<time datetime="2019-02-26T10:27:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>##目录<br>    环境准备</p>
+<pre><code>* hexo
+* github
+* git
+</code></pre><hr>
+<p>##第一步<br>     安装 node.js</p>
+<p> <img src="..\img\iu.jpg" alt></p>
+<hr>
+<p>##第二步</p>
+<pre><code>* 安装 hexo
+</code></pre><p> ‘’’npm<br>     npm install -g hexo-cli<br> ‘’’</p>
+<hr>
+<pre><code>* 初始化 hexo
+</code></pre><p> ‘’’npm<br>     hexo init<br> ‘’’</p>
+<hr>
+<p>###hexo 命令</p>
+<pre><code>* hexo n &quot;blogname&quot; （hexo new &quot;blogname&quot;） 生成名为 “blogname” 的博客
+* hexo s (hexo sever)  启动hexo
+* hexo g (hexo generate) 生成一篇博客
+* hexo clean 清理
+* hexo d (hexo deploy) 部署
+</code></pre><p>###本地查看个人博客(用于平时测试)</p>
+<pre><code>localhost:4000
+</code></pre><hr>
+<p>##第三步<br>     将 hexo 个人博客部署到 GitHub 上</p>
+<hr>
+<p>###登录 github 官网注册 github 账号</p>
+<pre><code>* [github.com](https://github.com)
+
+* 新建一个仓库 命名格式为： username.github.io
+</code></pre><hr>
+<p>###安装 hexo git 开发工具<br> ‘’’npm<br>     npm install –save hexo-deployer-git<br> ‘’’</p>
+<hr>
+<p>##第四步<br>    设置 _config.yml</p>
+<pre><code>\#deployment
+    deploy:
+        type: git
+        repo: 仓库地址 如：[https://github.com/symboly/symboly.github.io](https://github.com/symboly/symboly.github.io)
+        branch: master (默认是 master 分支)
+</code></pre><hr>
+<p>###部署到 github<br>    hexo d</p>
+<hr>
+<p>##更换 hexo 主题</p>
+<pre><code>* 进入 hexo 官网选择自己喜欢的主题，下载下来
+* 个人推荐： 进入 github.com/litten/hexo-theme-yilia clone主题
+    git clone github.com/litten/hexo-theme-yilia.git themes/yilia
+
+* 修改 _config.yml 
+    将 theme: lanscape 改为 yilia
+</code></pre><p>##参考</p>
+<pre><code>* 
+* 
+</code></pre>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/02/26/hexo-github-搭建个人博客教程！/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-我的第一篇博客！" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
