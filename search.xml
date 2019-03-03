@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[hexo + github 搭建个人博客教程！]]></title>
+    <url>%2F2019%2F02%2F26%2Fhexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%81%2F</url>
+    <content type="text"><![CDATA[环境准备* hexo * github * git 第一步安装 node.js 第二步* 安装 hexo 1npm install -g hexo-cli * 初始化 hexo 1hexo init hexo 命令* hexo n &quot;blogname&quot; （hexo new &quot;blogname&quot;） 生成名为 “blogname” 的博客 * hexo s (hexo sever) 启动hexo * hexo g (hexo generate) 生成一篇博客 * hexo clean 清理 * hexo d (hexo deploy) 部署 本地查看个人博客(用于平时测试)localhost:4000 第三步将 hexo 个人博客部署到 GitHub 上 登录 github 官网注册 github 账号[github.com](https://github.com) * 新建一个仓库 命名格式为： username.github.io 安装 hexo git 开发工具1npm install --save hexo-deployer-git 第四步设置 _config.yml \#deployment deploy: type: git repo: 仓库地址 如： [https://github.com/symboly/symboly.github.io](https://github.com/symboly/symboly.github.io) branch: master (默认是 master 分支) 部署到 githubhexo d 更换 hexo 主题* 进入 hexo 官网选择自己喜欢的主题，下载下来 * 个人推荐： 进入 github.com/litten/hexo-theme-yilia clone主题 git clone github.com/litten/hexo-theme-yilia.git themes/yilia * 修改 _config.yml 将 theme: lanscape 改为 yilia 参考* *]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[我的第一篇博客！]]></title>
+    <url>%2F2019%2F02%2F26%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%81%2F</url>
+    <content type="text"><![CDATA[目录 内容 第一章 内容 第二章 内容 参考文献 内容]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F02%2F26%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
