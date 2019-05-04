@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2019%2F05%2F04%2Ftest%2F</url>
+    <content type="text"><![CDATA[测试 &lt;!--more--&gt;]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>jQuery</tag>
+        <tag>表格</tag>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo + github 搭建个人博客教程！]]></title>
     <url>%2F2019%2F02%2F26%2Fhexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%81%2F</url>
     <content type="text"><![CDATA[环境准备* hexo * github * git 第一步安装 node.js 第二步* 安装 hexo 1npm install -g hexo-cli * 初始化 hexo 1hexo init hexo 命令* hexo n &quot;blogname&quot; （hexo new &quot;blogname&quot;） 生成名为 “blogname” 的博客 * hexo s (hexo sever) 启动hexo * hexo g (hexo generate) 生成一篇博客 * hexo clean 清理 * hexo d (hexo deploy) 部署 本地查看个人博客(用于平时测试)localhost:4000 第三步将 hexo 个人博客部署到 GitHub 上 登录 github 官网注册 github 账号[github.com](https://github.com) * 新建一个仓库 命名格式为： username.github.io 安装 hexo git 开发工具1npm install --save hexo-deployer-git 第四步设置 _config.yml \#deployment deploy: type: git repo: 仓库地址 如： [https://github.com/symboly/symboly.github.io](https://github.com/symboly/symboly.github.io) branch: master (默认是 master 分支) 部署到 githubhexo d 更换 hexo 主题* 进入 hexo 官网选择自己喜欢的主题，下载下来 * 个人推荐： 进入 github.com/litten/hexo-theme-yilia clone主题 git clone github.com/litten/hexo-theme-yilia.git themes/yilia * 修改 _config.yml 将 theme: lanscape 改为 yilia 参考* *]]></content>

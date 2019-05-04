@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-26T14:39:42.442Z</updated>
+  <updated>2019-05-04T14:17:38.544Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,24 +17,52 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo + github 搭建个人博客教程！</title>
-    <link href="http://yoursite.com/2019/02/26/hexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%81/"/>
-    <id>http://yoursite.com/2019/02/26/hexo-github-搭建个人博客教程！/</id>
-    <published>2019-02-26T10:27:47.000Z</published>
-    <updated>2019-02-26T14:39:42.442Z</updated>
+    <title>test</title>
+    <link href="http://yoursite.com/2019/05/04/test/"/>
+    <id>http://yoursite.com/2019/05/04/test/</id>
+    <published>2019-05-04T13:09:20.000Z</published>
+    <updated>2019-05-04T14:17:38.544Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><pre><code>* hexo* github* git</code></pre><hr><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><pre><code>安装 node.js</code></pre><p> <img src="..\img\iu.jpg" alt></p><hr><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><pre><code>* 安装 hexo</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><hr><pre><code>* 初始化 hexo</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><hr><h3 id="hexo-命令"><a href="#hexo-命令" class="headerlink" title="hexo 命令"></a>hexo 命令</h3><pre><code>* hexo n &quot;blogname&quot; （hexo new &quot;blogname&quot;） 生成名为 “blogname” 的博客* hexo s (hexo sever)  启动hexo* hexo g (hexo generate) 生成一篇博客* hexo clean 清理* hexo d (hexo deploy) 部署</code></pre><h3 id="本地查看个人博客-用于平时测试"><a href="#本地查看个人博客-用于平时测试" class="headerlink" title="本地查看个人博客(用于平时测试)"></a>本地查看个人博客(用于平时测试)</h3><pre><code>localhost:4000</code></pre><hr><h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><pre><code>将 hexo 个人博客部署到 GitHub 上</code></pre><hr><h3 id="登录-github-官网注册-github-账号"><a href="#登录-github-官网注册-github-账号" class="headerlink" title="登录 github 官网注册 github 账号"></a>登录 github 官网注册 github 账号</h3><pre><code>[github.com](https://github.com)* 新建一个仓库 命名格式为： username.github.io</code></pre><hr><h3 id="安装-hexo-git-开发工具"><a href="#安装-hexo-git-开发工具" class="headerlink" title="安装 hexo git 开发工具"></a>安装 hexo git 开发工具</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure><hr><h2 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h2><pre><code>设置 _config.yml\#deployment    deploy:        type: git        repo: 仓库地址 如：        [https://github.com/symboly/symboly.github.io](https://github.com/symboly/symboly.github.io)        branch: master (默认是 master 分支)</code></pre><hr><h3 id="部署到-github"><a href="#部署到-github" class="headerlink" title="部署到 github"></a>部署到 github</h3><pre><code>hexo d</code></pre><hr><h2 id="更换-hexo-主题"><a href="#更换-hexo-主题" class="headerlink" title="更换 hexo 主题"></a>更换 hexo 主题</h2><pre><code>* 进入 hexo 官网选择自己喜欢的主题，下载下来* 个人推荐： 进入 github.com/litten/hexo-theme-yilia clone主题    git clone github.com/litten/hexo-theme-yilia.git themes/yilia* 修改 _config.yml     将 theme: lanscape 改为 yilia</code></pre><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><pre><code>* * </code></pre>]]></content>
+    <content type="html"><![CDATA[<hr><pre><code>测试&lt;!--more--&gt;</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerlink&quot; title=&quot;环境准备&quot;&gt;&lt;/a&gt;环境准备&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;* hexo
+        &lt;hr&gt;
+&lt;pre&gt;&lt;code&gt;测试
+&amp;lt;!--more--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="jQuery" scheme="http://yoursite.com/tags/jQuery/"/>
+    
+      <category term="表格" scheme="http://yoursite.com/tags/%E8%A1%A8%E6%A0%BC/"/>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo + github 搭建个人博客教程！</title>
+    <link href="http://yoursite.com/2019/02/26/hexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%81/"/>
+    <id>http://yoursite.com/2019/02/26/hexo-github-搭建个人博客教程！/</id>
+    <published>2019-02-26T10:27:47.000Z</published>
+    <updated>2019-05-04T13:10:14.693Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><pre><code>* hexo* github* git</code></pre><hr><a id="more"></a><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><pre><code>安装 node.js</code></pre><p> <img src="..\img\iu.jpg" alt></p><hr><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><pre><code>* 安装 hexo</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><hr><pre><code>* 初始化 hexo</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><hr><h3 id="hexo-命令"><a href="#hexo-命令" class="headerlink" title="hexo 命令"></a>hexo 命令</h3><pre><code>* hexo n &quot;blogname&quot; （hexo new &quot;blogname&quot;） 生成名为 “blogname” 的博客* hexo s (hexo sever)  启动hexo* hexo g (hexo generate) 生成一篇博客* hexo clean 清理* hexo d (hexo deploy) 部署</code></pre><h3 id="本地查看个人博客-用于平时测试"><a href="#本地查看个人博客-用于平时测试" class="headerlink" title="本地查看个人博客(用于平时测试)"></a>本地查看个人博客(用于平时测试)</h3><pre><code>localhost:4000</code></pre><hr><h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><pre><code>将 hexo 个人博客部署到 GitHub 上</code></pre><hr><h3 id="登录-github-官网注册-github-账号"><a href="#登录-github-官网注册-github-账号" class="headerlink" title="登录 github 官网注册 github 账号"></a>登录 github 官网注册 github 账号</h3><pre><code>[github.com](https://github.com)* 新建一个仓库 命名格式为： username.github.io</code></pre><hr><h3 id="安装-hexo-git-开发工具"><a href="#安装-hexo-git-开发工具" class="headerlink" title="安装 hexo git 开发工具"></a>安装 hexo git 开发工具</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure><hr><h2 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h2><pre><code>设置 _config.yml\#deployment    deploy:        type: git        repo: 仓库地址 如：        [https://github.com/symboly/symboly.github.io](https://github.com/symboly/symboly.github.io)        branch: master (默认是 master 分支)</code></pre><hr><h3 id="部署到-github"><a href="#部署到-github" class="headerlink" title="部署到 github"></a>部署到 github</h3><pre><code>hexo d</code></pre><hr><h2 id="更换-hexo-主题"><a href="#更换-hexo-主题" class="headerlink" title="更换 hexo 主题"></a>更换 hexo 主题</h2><pre><code>* 进入 hexo 官网选择自己喜欢的主题，下载下来* 个人推荐： 进入 github.com/litten/hexo-theme-yilia clone主题    git clone github.com/litten/hexo-theme-yilia.git themes/yilia* 修改 _config.yml     将 theme: lanscape 改为 yilia</code></pre><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><pre><code>* * </code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerlink&quot; title=&quot;环境准备&quot;&gt;&lt;/a&gt;环境准备&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;* hexo
 * github
 * git
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;h2 id=&quot;第一步&quot;&gt;&lt;
-      
     
     </summary>
     

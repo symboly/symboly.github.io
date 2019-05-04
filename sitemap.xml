@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/05/04/test/</loc>
+    
+    <lastmod>2019-05-04T14:17:38.544Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2019-05-04T13:36:54.180Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2019-05-04T13:33:23.352Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/02/26/hexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%EF%BC%81/</loc>
     
-    <lastmod>2019-02-26T14:39:42.442Z</lastmod>
+    <lastmod>2019-05-04T13:10:14.693Z</lastmod>
     
   </url>
   
